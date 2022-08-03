@@ -11,43 +11,48 @@
 
 <body>
 
-<section class="primeiraSecao">
+    <section class="primeiraSecao">
 
-<div class="card-deck">
-  <div class="card">
-    <img class="card-img-top" src="assets/img/jquery.jpeg" alt="Imagem de capa do card">
-    <div class="card-body">
-      <h5 class="card-title"> Alteração de propriedade </h5>
-      <p class="card-text"> Ao clicar no botão, o texto será alterado de branco para preto. </p>
-      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-      <button type="button" class="btn btn-light">Light</button>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="assets/img/jquery.jpeg" alt="Imagem de capa do card">
-    <div class="card-body">
-      <h5 class="card-title"> Alteração de propriedade </h5>
-      <p class="card-text"> Ao clicar no botão, o texto será alterado de branco para preto. </p>
-      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-      <button type="button" class="btn btn-light">Light</button>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="assets/img/jquery.jpeg" alt="Imagem de capa do card">
-    <div class="card-body">
-      <h5 class="card-title"> Alteração de propriedade </h5>
-      <p class="card-text"> Ao clicar no botão, o texto será alterado de branco para preto. </p>
-      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
-      <button type="button" class="btn btn-light">Light</button>
-    </div>
-  </div>
-</div>
+        <div class="container">
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>01</h2>
+                        <h3>1° tarefa</h3>
+                        <p class="removeClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+                        <button class="buttonRemoveClass" id="buttonRemoveClass"> CLIQUE! </button>
+                    </div>
+                </div>
+            </div>
 
-</section>
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>02</h2>
+                        <h3>2° tarefa</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+                        <button> CLIQUE! </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>03</h2>
+                        <h3>3° tarefa</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+                        <button> CLIQUE! </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="assets/js/main.js"></script>
